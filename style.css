@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fbe7c6;
+}
+
+.text-center {
+    color: #008000;
+    font-weight: 600;
+}
+
+.label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+   
+}
+
+html {
+    --top-spacing: 100px;
+    scroll-padding-top: var(--top-spacing);
+}
+
+.welcome {
+    text-align: center;
+    font-style: italic;
+    color: #008000;
+}
+
+
+nav a {
+    float: right;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 20px 30px;
+    transition: all 0.5s ease 0s;
+}
+
+nav a:hover {
+    background-color: #002e5b;
+    color: wheat;
+}
+
+.aside-left {
+    background-color: #33b5e5;
+    padding: 40px;
+    margin-left: 60px;
+    border-right: 4px;
+    color: #ffffff;
+    text-align: justify;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all .2s ease-in-out;
+}
+
+.aside-left:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.aside-right:hover {
+    transform: scale(1.1);
+    cursor: pointer; 
+}
+
+.img-friends {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.desc {
+    text-align: justify;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    padding: 15px 15px;
+    margin-left: 0;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    width: 50%;
+    position: relative;
+    margin: 30px auto;
+    color: rgba(255, 80, 80, 0.5);
+    font-weight: 700;
+}
+
+.hover { 
+    transition: all .2s ease-in-out; 
+}
+    
+.hover:hover { 
+    transform: scale(1.1); 
+}
+
+.communication {
+    color: blue;
+    text-align: center;
+    padding: 15px;
+}
+
+.communication-top {
+    background: url("./image/iStock-1014903134-scaled.jpg") no-repeat center center fixed;
+    margin: 50px 50px;
+    
+}
+
+@media (max-width: 1200px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+
+  
+
